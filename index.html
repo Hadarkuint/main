@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Analytics | Profile Banner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.waves.min.js"
+      defer
+    ></script>
+    <script src="background.js" defer></script>
+  </head>
+  <body>
+    <header class="banner" aria-label="Professional profile banner">
+      <div class="swoosh"></div>
+      <svg class="chart" viewBox="0 0 360 275" aria-hidden="true">
+        <g>
+          <rect class="bar" x="15" y="211" width="23" height="64" rx="3" />
+          <rect class="bar" x="52" y="180" width="23" height="95" rx="3" />
+          <rect class="bar" x="89" y="225" width="23" height="50" rx="3" />
+          <rect class="bar" x="126" y="153" width="23" height="122" rx="3" />
+          <rect class="bar" x="163" y="188" width="23" height="87" rx="3" />
+          <rect class="bar" x="200" y="120" width="23" height="155" rx="3" />
+          <rect class="bar" x="237" y="145" width="23" height="130" rx="3" />
+          <rect class="bar" x="274" y="90" width="23" height="185" rx="3" />
+          <rect class="bar" x="311" y="55" width="23" height="220" rx="3" />
+        </g>
+        <path
+          class="curve"
+          d="M0 203 C70 230 93 175 140 178 S230 80 273 78 S325 22 360 26"
+        />
+        <circle class="dot" cx="140" cy="178" r="6" />
+        <circle class="dot" cx="273" cy="78" r="6" />
+        <circle class="dot" cx="335" cy="34" r="6" />
+      </svg>
+      <div class="content">
+        <div class="portrait">
+          <img src="hadar.jpg" alt="My profile picture" />
+          <img
+            class="portrait-hover"
+            src="beast.JPG"
+            alt=""
+            aria-hidden="true"
+          />
+          <!-- <div class="portrait-placeholder">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 30 30"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="15" cy="15" r="10" />
+              <path d="M11 55c1-14 9-21 21-21s20 7 21 21" />
+            </svg>
+            
+          </div> -->
+        </div>
+        <div class="copy">
+          <p class="eyebrow">
+            Data &nbsp;•&nbsp; Insights &nbsp;•&nbsp; Impact
+          </p>
+          <h1>Data Analytics &amp;<span>Visualization Expert</span></h1>
+          <p class="subtitle">
+            Turning Complex Data into Clear Insights | BI &amp; Data
+            Storytelling
+          </p>
+          <div class="features">
+            <div class="feature">
+              <svg viewBox="0 0 36 36">
+                <path d="M5 30V21h5v9M16 30V13h5v17M27 30V5h5v25" /></svg
+              ><span>Analyze<br />Complex Data</span>
+            </div>
+            <div class="feature">
+              <svg viewBox="0 0 36 36">
+                <path
+                  d="M13 26h10M15 31h6M13 22c-3-2-5-5-5-9a10 10 0 0 1 20 0c0 4-2 7-5 9l-1 4h-8zM18 1v2M3 13h2M31 13h2"
+                /></svg
+              ><span>Find<br />Meaningful Insights</span>
+            </div>
+            <div class="feature">
+              <svg viewBox="0 0 36 36">
+                <circle cx="17" cy="19" r="13" />
+                <circle cx="17" cy="19" r="7" />
+                <path d="M17 19L33 3M26 3h7v7" /></svg
+              ><span>Create<br />Real Business Impact</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
